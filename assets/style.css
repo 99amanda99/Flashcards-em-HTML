@@ -99,3 +99,30 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+
+@media [max-width:560pz] {
+
+    body {
+        background:url {
+            ´img/bg-moblie.wepp´
+        }
+
+        ,
+        :no- repeat cover;
+    }
+
+
+    .cartao {
+        flex: 1 0 calc(100%-1rem)
+    }
+
+    .cartao__conteudo h3 {
+        font-size: 3vw;
+    }
+
+
+    .cartao__conteudop {
+        font-size: 3.8vw;
+
+    }
+}
