@@ -1,16 +1,21 @@
 criaCartao(progração
   'programação''
-   O que é python?
-   o python é uma liguagem de
+   O que é python ?
+  o python é uma liguagem de
 
    criaCartao(
     'geografia',
     ' qual a capital da frança?',
-    A capital da frança é Paris 
-   )
+    A capital da frança é Paris
+  )
 
    criaCartao(
-   ' programação',
-   'O que é uma função?',
-   'Uma função é um bloco de código que executa alguma tareta'
-   )
+    ' programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tareta'
+  )
+   criaCartao{
+  'lingua inglesa;
+    'como se diz oi em inglesa?;
+    'Oi em inglesa ´é HI {RAI}'
+   }
