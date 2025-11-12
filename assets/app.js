@@ -1,9 +1,9 @@
-function criaCartao{categoria,perguta,resposta}{
-    let container = document. getElementByld{'container'}
-    let cartao = document.createElement{'article'}
-    cartao.className='cartao'
+function criaCartao{ categoria, perguta, resposta } {
+    let container = document.getElementByld{ 'container'}
+    let cartao = document.createElement{ 'article'}
+    cartao.className = 'cartao'
 }
-cartao.innrHTML=`
+cartao.innrHTML = `
 <div clss="cartao_conteudo">
 <h3>${categoria}</h3>
 <div class="cartao_conteudo_pergunta">
@@ -13,3 +13,14 @@ cartao.innrHTML=`
 <P>${resposta}</p>
 </div>
 </div>
+
+let respostaEataVisivel=false
+
+
+function viraCatao{}{
+respostaEstaVisvel= irespostaEstaVisivel
+cartao.classList.toggle {'active,'resposaEsataVisvel}
+]
+cartao.addEventiLIstene{cllck, viraCarto}
+container.appendChild{cartao}
+}
